@@ -20,8 +20,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 PRODUCT_PACKAGES += initial-package-stopped-states-aosp.xml
 
 # Abstruct
-PRODUCT_PACKAGES += \
-    Abstruct
+# PRODUCT_PACKAGES += \
+#     Abstruct
 
 # AOSPA Version.
 $(call inherit-product, vendor/aospa/target/product/version.mk)
@@ -153,7 +153,8 @@ SYSTEM_OPTIMIZE_JAVA := true
 SYSTEMUI_OPTIMIZE_JAVA := true
 
 # Microsoft
-$(call inherit-product, vendor/aospa/prebuilt/microsoft/packages.mk)
+# Disable this
+# $(call inherit-product, vendor/aospa/prebuilt/microsoft/packages.mk)
 
 # MTE
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
