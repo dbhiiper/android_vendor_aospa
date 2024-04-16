@@ -207,54 +207,106 @@
   </family>
   <alias name="urbanist-medium" to="urbanist" weight="600" />
 
+  <family customizationType="new-named-family" name="inter-display">
+    <font weight="100" style="normal">InterVariable.ttf
+        <axis tag="wght" stylevalue="100"/>
+        <axis tag="opsz" stylevalue="32"/>
+    </font>
+    <font weight="100" style="italic">InterVariable-Italic.ttf
+        <axis tag="wght" stylevalue="100"/>
+        <axis tag="opsz" stylevalue="32"/>
+    </font>
+    <font weight="300" style="normal">InterVariable.ttf
+        <axis tag="wght" stylevalue="300"/>
+        <axis tag="opsz" stylevalue="32"/>
+    </font>
+    <font weight="300" style="italic">InterVariable-Italic.ttf
+        <axis tag="wght" stylevalue="300"/>
+        <axis tag="opsz" stylevalue="32"/>
+    </font>
+    <font weight="400" style="normal">InterVariable.ttf
+        <axis tag="wght" stylevalue="400"/>
+        <axis tag="opsz" stylevalue="32"/>
+    </font>
+    <font weight="400" style="italic">InterVariable-Italic.ttf
+        <axis tag="wght" stylevalue="400"/>
+        <axis tag="opsz" stylevalue="32"/>
+    </font>
+    <font weight="500" style="normal">InterVariable.ttf
+        <axis tag="wght" stylevalue="500"/>
+        <axis tag="opsz" stylevalue="32"/>
+    </font>
+    <font weight="500" style="italic">InterVariable-Italic.ttf
+        <axis tag="wght" stylevalue="500"/>
+        <axis tag="opsz" stylevalue="32"/>
+    </font>
+    <font weight="700" style="normal">InterVariable.ttf
+        <axis tag="wght" stylevalue="700"/>
+        <axis tag="opsz" stylevalue="32"/>
+    </font>
+    <font weight="700" style="italic">InterVariable-Italic.ttf
+        <axis tag="wght" stylevalue="700"/>
+        <axis tag="opsz" stylevalue="32"/>
+    </font>
+    <font weight="900" style="normal">InterVariable.ttf
+        <axis tag="wght" stylevalue="900"/>
+        <axis tag="opsz" stylevalue="32"/>
+    </font>
+    <font weight="900" style="italic">InterVariable-Italic.ttf
+        <axis tag="wght" stylevalue="900"/>
+        <axis tag="opsz" stylevalue="32"/>
+    </font>
+  </family>
+  <alias name="inter-display-medium" to="inter-display" weight="500" />
+
   <family customizationType="new-named-family" name="inter">
-    <font weight="100" style="normal">Inter-VF.ttf
+    <font weight="100" style="normal">InterVariable.ttf
         <axis tag="wght" stylevalue="100"/>
-        <axis tag="slnt" stylevalue="0"/>
+        <axis tag="opsz" stylevalue="14"/>
     </font>
-    <font weight="100" style="italic">Inter-VF.ttf
+    <font weight="100" style="italic">InterVariable-Italic.ttf
         <axis tag="wght" stylevalue="100"/>
-        <axis tag="slnt" stylevalue="-10"/>
+        <axis tag="opsz" stylevalue="14"/>
     </font>
-    <font weight="300" style="normal">Inter-VF.ttf
+    <font weight="300" style="normal">InterVariable.ttf
         <axis tag="wght" stylevalue="300"/>
-        <axis tag="slnt" stylevalue="0"/>
+        <axis tag="opsz" stylevalue="14"/>
     </font>
-    <font weight="300" style="italic">Inter-VF.ttf
+    <font weight="300" style="italic">InterVariable-Italic.ttf
         <axis tag="wght" stylevalue="300"/>
-        <axis tag="slnt" stylevalue="-10"/>
+        <axis tag="opsz" stylevalue="14"/>
     </font>
-    <font weight="400" style="normal">Inter-VF.ttf
+    <font weight="400" style="normal">InterVariable.ttf
         <axis tag="wght" stylevalue="400"/>
-        <axis tag="slnt" stylevalue="0"/>
+        <axis tag="opsz" stylevalue="14"/>
     </font>
-    <font weight="400" style="italic">Inter-VF.ttf
+    <font weight="400" style="italic">InterVariable-Italic.ttf
         <axis tag="wght" stylevalue="400"/>
-        <axis tag="slnt" stylevalue="-10"/>
+        <axis tag="opsz" stylevalue="14"/>
     </font>
-    <font weight="500" style="normal">Inter-VF.ttf
+    <font weight="500" style="normal">InterVariable.ttf
         <axis tag="wght" stylevalue="500"/>
-        <axis tag="slnt" stylevalue="0"/>
+        <axis tag="opsz" stylevalue="14"/>
     </font>
-    <font weight="500" style="italic">Inter-VF.ttf
+    <font weight="500" style="italic">InterVariable-Italic.ttf
         <axis tag="wght" stylevalue="500"/>
-        <axis tag="slnt" stylevalue="-10"/>
+        <axis tag="opsz" stylevalue="14"/>
     </font>
-    <font weight="700" style="normal">Inter-VF.ttf
+    <font weight="700" style="normal">InterVariable.ttf
         <axis tag="wght" stylevalue="700"/>
-        <axis tag="slnt" stylevalue="0"/>
+        <axis tag="opsz" stylevalue="14"/>
     </font>
-    <font weight="700" style="italic">Inter-VF.ttf
+    <font weight="700" style="italic">InterVariable-Italic.ttf
         <axis tag="wght" stylevalue="700"/>
-        <axis tag="slnt" stylevalue="-10"/>
+        <axis tag="opsz" stylevalue="14"/>
     </font>
-    <font weight="900" style="normal">Inter-VF.ttf
+    <font weight="900" style="normal">InterVariable.ttf
         <axis tag="wght" stylevalue="900"/>
-        <axis tag="slnt" stylevalue="0"/>
+        <axis tag="opsz" stylevalue="14"/>
     </font>
-    <font weight="900" style="italic">Inter-VF.ttf
+    <font weight="900" style="italic">InterVariable-Italic.ttf
         <axis tag="wght" stylevalue="900"/>
-        <axis tag="slnt" stylevalue="-10"/>
+        <axis tag="opsz" stylevalue="14"/>
     </font>
   </family>
   <alias name="inter-medium" to="inter" weight="500" />
@@ -298,4 +350,55 @@
     </font>
   </family>
   <alias name="harmonyos-sans-medium" to="harmonyos-sans" weight="500"/>
+
+  <family customizationType="new-named-family" name="op-sans">
+    <font weight="100" style="normal">OPSans-En-Regular.ttf
+      <axis tag="wght" stylevalue="100" />
+    </font>
+    <font weight="300" style="normal">OPSans-En-Regular.ttf
+      <axis tag="wght" stylevalue="250" />
+    </font>
+    <font weight="400" style="normal">OPSans-En-Regular.ttf
+      <axis tag="wght" stylevalue="400" />
+    </font>
+    <font weight="500" style="normal">OPSans-En-Regular.ttf
+      <axis tag="wght" stylevalue="550" />
+    </font>
+    <font weight="700" style="normal">OPSans-En-Regular.ttf
+      <axis tag="wght" stylevalue="750" />
+    </font>
+    <font weight="900" style="normal">OPSans-En-Regular.ttf
+      <axis tag="wght" stylevalue="900" />
+    </font>
+  </family>
+  <alias name="op-sans-medium" to="op-sans" weight="500" />
+
+  <family customizationType="new-named-family" name="opposans">
+    <font weight="100" style="normal">OppoSans-En-Regular.ttf
+      <axis tag="wght" stylevalue="200" />
+    </font>
+    <font weight="300" style="normal">OppoSans-En-Regular.ttf
+      <axis tag="wght" stylevalue="350" />
+    </font>
+    <font weight="400" style="normal">OppoSans-En-Regular.ttf
+      <axis tag="wght" stylevalue="550" />
+    </font>
+    <font weight="500" style="normal">OppoSans-En-Regular.ttf
+      <axis tag="wght" stylevalue="650" />
+    </font>
+    <font weight="700" style="normal">OppoSans-En-Regular.ttf
+      <axis tag="wght" stylevalue="800" />
+    </font>
+    <font weight="900" style="normal">OppoSans-En-Regular.ttf
+      <axis tag="wght" stylevalue="900" />
+    </font>
+  </family>
+  <alias name="opposans-medium" to="opposans" weight="500" />
+
+  <family customizationType="new-named-family" name="linotte">
+  <font weight="300" style="normal">Linotte.ttf</font>
+  </family>
+  <alias name="linotte-semi-bold" to="linotte" weight="600" />
+  <alias name="linotte-bold" to="linotte" weight="700" />
+
 </fonts-modification>

@@ -19,7 +19,6 @@ PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/beryllium/aospa_beryllium.mk \
     $(LOCAL_DIR)/bitra/aospa_bitra.mk \
     $(LOCAL_DIR)/bladerunner/aospa_bladerunner.mk \
-    $(LOCAL_DIR)/bladerunner_48m/aospa_bladerunner_48m.mk \
     $(LOCAL_DIR)/bluejay/aospa_bluejay.mk \
     $(LOCAL_DIR)/cheetah/aospa_cheetah.mk \
     $(LOCAL_DIR)/davinci/aospa_davinci.mk \
@@ -45,6 +44,7 @@ PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/oneplus9r/aospa_oneplus9r.mk \
     $(LOCAL_DIR)/oriole/aospa_oriole.mk \
     $(LOCAL_DIR)/panther/aospa_panther.mk \
+    $(LOCAL_DIR)/pdx234/aospa_pdx234.mk \
     $(LOCAL_DIR)/phoenix/aospa_phoenix.mk \
     $(LOCAL_DIR)/phone1/aospa_phone1.mk \
     $(LOCAL_DIR)/phone2/aospa_phone2.mk \
@@ -65,7 +65,6 @@ COMMON_LUNCH_CHOICES += \
     aospa_beryllium-userdebug \
     aospa_bitra-userdebug \
     aospa_bladerunner-userdebug \
-    aospa_bladerunner_48m-userdebug \
     aospa_bluejay-userdebug \
     aospa_cheetah-userdebug \
     aospa_davinci-userdebug \
@@ -91,6 +90,7 @@ COMMON_LUNCH_CHOICES += \
     aospa_oneplus9r-userdebug \
     aospa_oriole-userdebug \
     aospa_panther-userdebug \
+    aospa_pdx234-userdebug \
     aospa_phoenix-userdebug \
     aospa_phone1-userdebug \
     aospa_phone2-userdebug \
